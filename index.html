@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comic vault - sign in</title>
+    <style>
+        body{
+            font-family: arial,sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: red;
+           background: 
+           linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+           url(comic-back.jpg);
+           background-size: cover;
+           background-attachment:fixed ;
+        }
+        .container{
+            max-width: 500px;
+            margin: 0 auto;
+            background :rgb(234, 108, 108);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1{
+            text-align: center;
+            color: rgb(234, 108, 108);
+        }
+        h3{
+            text-align: center;
+            color:rgb(234, 108, 108);
+        }
+        .form-group{
+            margin-bottom: 20px;
+        }
+        label{
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"],
+        select{
+            width: 100%;
+            padding: 5px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            font-weight: bold;
+            background-color:rgb(115, 115, 255)
+        }
+        input[type="submit"]{
+            width: 20%;
+            padding: 5px;
+            border-radius: 10px;
+            margin-bottom: 5px; 
+            font-weight: bold;
+            background-color:rgb(125, 125, 241)
+        }
+
+
+    </style>
+</head>
+<body> 
+    <header>
+        <h1> welcome to Comic vault</h1>
+        </header>
+    
+<h3>please sign in</h3>
+<div class="container">
+    <form action="home page.html" method="get">
+<div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+</div>
+<div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="8" required>
+</div>
+<div class="form-group">
+    <input type="submit" value="sing in">
+</div>
+    </form>
+</div>
+</body>
+</html>     
